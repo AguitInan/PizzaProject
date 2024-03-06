@@ -6,7 +6,7 @@ namespace PizzBlazor.Services
     public class APIPizzaService : IPizzaService
     {
         private readonly HttpClient _httpClient;
-        private readonly string _baseApiRoute; // = "http://localhost:5236/api/pizzas";
+        private readonly string _baseApiRoute; // = "http://localhost:5284/api/pizzas";
 
         public APIPizzaService(HttpClient httpClient, IConfiguration configuration)
         {

@@ -11,7 +11,7 @@ using PizzAPI.Datas;
 namespace PizzAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240306112921_InitialMigration")]
+    [Migration("20240308133227_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
